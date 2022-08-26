@@ -1,3 +1,3 @@
-Automate AWS Infrastructure using Terraform
+**Automate AWS Infrastructure using Terraform**
 
 The purpose of this project is to create an entire AWS Infrastructure using Terraform. The entire project will be built using Infrastucture as Code without manually provisioning resources on the AWS platform. By utilizing terraform, we wil be able to create VPC's for production and test environments and serving web-servers for production and testing in those subnets using tags. We will also create different routes for those subnets using routing tables and internet gateways to route traffic to and from subnets while using a secure tunnel to allow ingress and egress traffic. We will also create network interfaces and elastic IP addresses for those interfaces to be able to point our web servers to specific IP addresses. By creating these resources through code we will be able to automate our entire infrastucture and create,modify and delete resources using Terraform.
